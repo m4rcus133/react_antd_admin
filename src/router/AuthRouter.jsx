@@ -24,11 +24,11 @@ export default function AuthRouter() {
             render={() => <Navigate to="/login" />}
           />
           <Route element={<Login/>} path="/login" exact />
-          <Route
+          {/* <Route
             path="*"
             element={<NotFound/>}
             render={() => <Navigate to="/notfound" />}
-          />
+          /> */}
         </Routes >
         
       </AnimatePresence>
