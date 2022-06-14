@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/react_antd_admin/static/js/main.d2fe1689.js",
+    "main.js": "/react_antd_admin/static/js/main.5693c48c.js",
     "LoginPage.js": "/react_antd_admin/static/js/LoginPage.cd367b51.chunk.js",
     "NotFoundPage.js": "/react_antd_admin/static/js/NotFoundPage.fff815e9.chunk.js",
     "DashboardPage.js": "/react_antd_admin/static/js/DashboardPage.c71de3e9.chunk.js",
@@ -24,7 +24,7 @@
     "static/js/402.2251e11f.chunk.js": "/react_antd_admin/static/js/402.2251e11f.chunk.js",
     "service-worker.js": "/react_antd_admin/service-worker.js",
     "index.html": "/react_antd_admin/index.html",
-    "main.d2fe1689.js.map": "/react_antd_admin/static/js/main.d2fe1689.js.map",
+    "main.5693c48c.js.map": "/react_antd_admin/static/js/main.5693c48c.js.map",
     "LoginPage.cd367b51.chunk.js.map": "/react_antd_admin/static/js/LoginPage.cd367b51.chunk.js.map",
     "NotFoundPage.fff815e9.chunk.js.map": "/react_antd_admin/static/js/NotFoundPage.fff815e9.chunk.js.map",
     "DashboardPage.c71de3e9.chunk.js.map": "/react_antd_admin/static/js/DashboardPage.c71de3e9.chunk.js.map",
@@ -48,6 +48,6 @@
     "402.2251e11f.chunk.js.map": "/react_antd_admin/static/js/402.2251e11f.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d2fe1689.js"
+    "static/js/main.5693c48c.js"
   ]
 }
