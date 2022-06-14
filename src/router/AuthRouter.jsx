@@ -26,7 +26,7 @@ export default function AuthRouter() {
           <Route element={<Login/>} path="/login" exact />
           <Route
             path="*"
-            element={<Login/>}
+            element={<NotFound/>}
             render={() => <Navigate to="/notfound" />}
           />
         </Routes >

@@ -1,0 +1,11 @@
+{
+    "username": "账号",
+    "password": "密码",
+    "login": "登入",
+    "forgot_password": "忘记密码",
+    "remember_me": "记得我",
+    "dark": "暗",
+    "light": "亮",
+    "login_username_msg": "请输入用户名！",
+    "login_password_msg": "请输入密码!"
+}

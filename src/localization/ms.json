@@ -1,0 +1,11 @@
+{
+    "username": "account id",
+    "password": "kata laluan",
+    "forgot_password": "Lupa kata laluan",
+    "login": "Log Masuk",
+    "remember_me": "Ingat saya",
+    "dark": "Gelap",
+    "light": "Terang",
+    "login_username_msg": "Sila masukkan kata laluan anda!",
+    "login_password_msg": "Sila masukkan nama pengguna anda!"
+}

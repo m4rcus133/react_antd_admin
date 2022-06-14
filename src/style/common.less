@@ -1,11 +1,46 @@
 
-@primary-color: #00adb5;
+// @primary-color: #00adb5;
 
 // .logo {
 //     height: 32px;
 //     background: rgba(255, 255, 255, 0.2);
 //     margin: 16px;
 //   }
+
+.globalFooter {
+  margin: 48px 0 24px 0;
+  padding: 0 16px;
+  text-align: center;
+
+  .links {
+    margin-bottom: 8px;
+
+    a {
+      color: @text-color-secondary;
+      transition: all 0.3s;
+
+      &:not(:last-child) {
+        margin-right: 40px;
+      }
+
+      &:hover {
+        color: @text-color;
+      }
+    }
+  }
+
+  .copyright {
+    color: @text-color-secondary;
+    font-size: @font-size-base;
+  }
+}
+
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
 
 
 .text-gradient {

@@ -1,0 +1,11 @@
+{
+    "username": "username",
+    "password": "password",
+    "login": "Login",
+    "forgot_password": "Forgot Password",
+    "remember_me": "Remember me",
+    "dark": "Dark",
+    "light": "Light",
+    "login_username_msg" : "Please input your Username!",
+    "login_password_msg" : "Please input your Password!"
+}

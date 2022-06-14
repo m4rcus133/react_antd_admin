@@ -11,7 +11,7 @@ export default function Router() {
   const { isLoggedIn } = useSelector(selectAuth);
 
   useEffect(() => {
-    //console.log("isLoggedIn : ", isLoggedIn);
+    console.log("isLoggedIn : ", isLoggedIn);
   }, [isLoggedIn]);
 
   if (isLoggedIn === false)

@@ -4,10 +4,9 @@ import { Provider } from "react-redux";
 import Router from "@/router";
 import history from "@/utils/history";
 import store from "@/redux/store";
-
 //import { Button, Result } from "antd";
-
 //import useNetwork from "@/hooks/useNetwork";
+
 
 function App() {
   //const { isOnline: isNetwork } = useNetwork();
@@ -29,11 +28,12 @@ function App() {
   //   );
   // else {
     return (
-      <RouterHistory location={history.location} navigator={history}>
-        <Provider store={store}>
-          <Router />
-        </Provider>
-      </RouterHistory>
+     
+        <RouterHistory location={history.location} navigator={history}>
+          <Provider store={store}>
+            <Router />
+          </Provider>
+        </RouterHistory>
     );
   // }
 }

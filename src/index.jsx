@@ -1,16 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-//import './index.css';
-import App from './app';
-import "./style/theme.light.less"
-import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+import App from '@/app';
+import * as serviceWorkerRegistration from '@/serviceWorkerRegistration';
+import { ConfigProvider } from "antd";
+import enUS from 'antd/lib/locale/en_US';
+import zhCN from 'antd/lib/locale/zh_CN';
+import msMY from 'antd/lib/locale/ms_MY';
+import LanguageContextProvider from "@/context/locale/LanguageContext";
+import ThemeProvider from "@/context/theme/ThemeProvider";
 //import reportWebVitals from './reportWebVitals';
+
+const languages = {
+  en: enUS,
+  zh: zhCN,
+  ms: msMY
+}
+
+const language = localStorage.getItem('currentLanguage') || 'en';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  // <React.StrictMode>
+      <ThemeProvider>
+        <ConfigProvider locale={languages[language]}>
+          <LanguageContextProvider>
+            <App />
+          </LanguageContextProvider>
+        </ConfigProvider>
+      </ThemeProvider>
+  // </React.StrictMode>
 );
 
 // If you want your app to work offline and load faster, you can change
