@@ -19,16 +19,16 @@ export default function AuthRouter() {
       <AnimatePresence exitBeforeEnter initial={false}>
         <Routes  location={location} key={location.pathname}>
           <Route
-            path="/"
+            path="/react_antd_admin"
             element={<PublicRoute component={Login}/>}
-            render={() => <Navigate to="/login" />}
+            render={() => <Navigate to="/react_antd_admin/login" />}
           />
-          <Route element={<Login/>} path="/login" exact />
-          {/* <Route
+          <Route element={<Login/>} path="/react_antd_admin/login" exact />
+          <Route
             path="*"
             element={<NotFound/>}
-            render={() => <Navigate to="/notfound" />}
-          /> */}
+            render={() => <Navigate to="/react_antd_admin/notfound" />}
+          />
         </Routes >
         
       </AnimatePresence>

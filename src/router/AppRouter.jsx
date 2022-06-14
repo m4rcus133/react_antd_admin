@@ -40,13 +40,13 @@ export default function AppRouter() {
         <Routes location={location} key={location.pathname}>
 
           {/* /* change to route */ }
-          <Route path="/" element={Dashboard} exact />
+          <Route path="/react_antd_admin" element={Dashboard} exact />
           {/* <PrivateRoute path="/" element={Dashboard} exact /> */}
 
-          <PrivateRoute element={Customer} path="/customer" exact />
+          <PrivateRoute element={Customer} path="/react_antd_admin/customer" exact />
           <PrivateRoute
             element={SelectCustomer}
-            path="/selectcustomer"
+            path="/react_antd_admin/selectcustomer"
             exact
           />
           <PrivateRoute element={Lead} path="/lead" exact />
